@@ -10,8 +10,8 @@
 
 被注释代码是测试手动设置播放某一帧的，只要设置了资源文件默认就会播放，没有定义额外的属性，毕竟多一个文件嘛，我很懒的，仅供学习。
 
-public class MainActivity extends AppCompatActivity {
-    private GifView mGifView;
+    public class MainActivity extends AppCompatActivity {
+        private GifView mGifView;
 //    private int time, time2;
 //    private TimerTask mTimerTask = new TimerTask() {
 //        @Override
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 //        time2 = mGifView.getMovie().duration() / 15;
 //        Timer mTimer = new Timer(true);
 //        mTimer.schedule(mTimerTask, 1000, 1000);
+     }
     }
-}
 
 
